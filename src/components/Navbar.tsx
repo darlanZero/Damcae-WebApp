@@ -2,7 +2,7 @@ import { AlignLeft } from "lucide-react"
 
 const Navbar = () => {
   return (
-    <div className='navbar root-bg bg-opacity-15 outline outline-1 outline-slate-800'>
+    <div className='navbar root-bg bg-opacity-15 outline outline-1 outline-slate-800 z-[1]'>
         <div className='navbar-start'>
             <div className='dropdown'>
                 <div tabIndex={0} className='btn btn-ghost lg:hidden'>

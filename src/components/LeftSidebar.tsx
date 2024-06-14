@@ -91,13 +91,13 @@ const LeftSidebar = () => {
                             <HomeIcon />
                         </button>
 
-                        <button className='btn btn-ghost btn-circle'
+                        <button className='btn btn-ghost transition-all ease-out open:transition-all  open:duration-75 open:ease-out duration-75 btn-circle'
                             onClick={handleDropdownToggle}
                         >
                            <FolderSymlinkIcon />
                         </button>
                         {isDropdownOpen && (
-                            <div className='bg-black-2 rounded shadow-md p-2 ml-40 mt-40 w-50 absolute flex'>
+                            <div className='bg-black-2 transition-all duration-75  ease-out rounded shadow-md p-2 ml-40 mt-40 w-50 absolute flex z-[1]'>
                                 {systems.map((system, index) => (
                                     <div key={index}
                                         className='px-2 rounded-sm py-2 hover:bg-gray-950'

@@ -8,16 +8,13 @@
   box-sizing: border-box;
 }
 
-.bg-blur::before {
+.bg-blur {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: inherit;
-  filter: blur(10px);
-  z-index: -1;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+ ;
 }
 
 .no-scrollbar::-webkit-scrollbar {
