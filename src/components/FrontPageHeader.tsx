@@ -1,6 +1,8 @@
+
 import FrontPageHeaderImage from '../assets/download.jpeg'
 
 const FrontPageHeader = () => {
+
   return (
     <div
       className='w-full h-96 items-center flex justify-center bg-opacity-30 relative backdrop-blur-lg'
@@ -20,7 +22,7 @@ const FrontPageHeader = () => {
               DAMCAE Project
             </h1>
             <p className='mb-5 text-white'>
-              A WhatsApp RPG game created and improved for your fun and profit.
+              Um jogo de Whatsapp do tipo RPG semitextual criado para sua diversão e desafio.
             </p>
             <button className='btn btn-primary'>
               Get Started

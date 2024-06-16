@@ -6,6 +6,7 @@ export default {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     'index.html',
+    './Server/*.{js, ts, jsx, tsx}',
   ],
   prefix: '',
   theme: {
@@ -88,8 +89,9 @@ export default {
         "green-gradient": "linear-gradient(90deg, #01797A 0%, #489399 100%)",
       },
       fontFamily: {
-        inter: "var(--font-inter)",
-        "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+        "title": ["Cormorant Garamond", "serif"],
+        "text": ["Quicksand", "serif"],
+        'playwrite-slovenko': ["Playwrite SK", "sans-serif"],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

@@ -3,6 +3,7 @@ import './App.css'
 import RootLayout from './pages/root/rootLayout'
 import Frontpage from './pages/root/Frontpage'
 import FormLayout from './pages/Form/FormLayout'
+import Login from './pages/Form/Login'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           </Route>
 
           <Route element={<FormLayout />}>
-            <Route path="/form" element={<FormLayout />} />
+            <Route path="/form" element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>
